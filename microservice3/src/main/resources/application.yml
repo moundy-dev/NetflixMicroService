@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: daniel-load-balancer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  healthcheck:
+    enabled: true
+server:
+  port: 8282
